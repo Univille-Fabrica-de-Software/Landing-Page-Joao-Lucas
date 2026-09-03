@@ -1,0 +1,85 @@
+:root {
+  --green-900: #163a2a;
+  --green-700: #1f5c44;
+  --green-500: #2c7a5c;
+  --soft-bg: #f4f7f5;
+  --muted: #5f6e67;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--soft-bg);
+  color: var(--green-900);
+}
+
+p,
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.navbar-brand {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--green-700) !important;
+}
+
+.badge {
+  font-weight: 700;
+}
+
+.progress {
+  height: 0.8rem;
+  background-color: #e8f0ea;
+  border-radius: 999px;
+}
+
+.progress-bar {
+  border-radius: 999px;
+}
+
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 64px;
+  }
+
+  .job-header {
+    display: block;
+  }
+
+  .job-header .badge {
+    margin-top: 0.5rem;
+  }
+}
+
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.tech-badges .badge {
+  padding: 0.4rem 0.6rem;
+  max-width: 180px;
+}
+
+.footer-center {
+  text-align: center;
+}
+.footer-center .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

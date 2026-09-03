@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panorama do Mercado de Tecnologia</title>
+  <meta name="description" content="Landing page acadêmica com análise de vagas locais e nacionais da área de tecnologia.">
+  <meta name="author" content="João Lucas Medeiros de Jesus">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="./assets/images/univille.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="bg-light">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio" aria-label="Fábrica de Software Univille">
+          <img src="./assets/images/univille.png" alt="Logo da Univille" class="img-fluid" style="width: 42px; height: 42px; object-fit: contain;">
+          <span class="fw-bold text-success">Fábrica de Software | Univille</span>
+        </a>
+
+        <div class="d-none d-lg-flex align-items-center gap-4">
+          <a class="nav-link text-dark" href="#pesquisa">Pesquisa</a>
+          <a class="nav-link text-dark" href="#vagas">Vagas</a>
+          <a class="nav-link text-dark" href="#graficos">Estatísticas</a>
+          <a class="nav-link text-dark" href="#tecnologias">Tecnologias</a>
+          <a class="nav-link text-dark" href="#analise">Conclusão</a>
+        </div>
+
+        <span class="d-none d-lg-block small text-secondary">Acadêmico: João Lucas Medeiros de Jesus</span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="py-5">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <span class="badge bg-success-subtle text-success-emphasis px-3 py-2 mb-3">Pesquisa de Mercado</span>
+            <h1 class="display-4 fw-bold text-dark mb-3">Panorama do Mercado de Tecnologia</h1>
+            <p class="lead text-secondary">Uma análise das vagas locais e nacionais para identificar as competências, tecnologias e tendências mais exigidas pelo mercado de trabalho atual.</p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="#pesquisa" class="btn btn-success btn-lg">Explorar Vagas</a>
+              <a href="#analise" class="btn btn-outline-success btn-lg">Ver Síntese</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pesquisa" class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold text-success mb-3">Visão Geral do Estudo</h2>
+        <p class="text-secondary text-center mx-auto mb-5">Dados reunidos a partir das vagas analisadas, comparando a demanda do mercado local de Joinville/SC com o cenário nacional.</p>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body py-4">
+                <h3 class="display-6 fw-bold text-success mb-2">8</h3>
+                <p class="mb-0 fw-semibold text-dark">Vagas Analisadas</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body py-4">
+                <h3 class="display-6 fw-bold text-success mb-2">4</h3>
+                <p class="mb-0 fw-semibold text-dark">Vagas Locais</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body py-4">
+                <h3 class="display-6 fw-bold text-success mb-2">4</h3>
+                <p class="mb-0 fw-semibold text-dark">Vagas Nacionais</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vagas" class="py-5 bg-white">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-success mb-3">Vagas Analisadas</h2>
+          <p class="text-secondary mx-auto" style="max-width: 760px;">Comparativo das competências e tecnologias pedidas em diferentes tipos de oportunidade.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <h3 class="h4 fw-bold mb-3 text-dark">Mercado Local / Joinville</h3>
+
+            <div class="card border-0 shadow-sm mb-3">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                  <h4 class="h5 mb-0">Estágio em Desenvolvimento</h4>
+                  <span class="badge bg-warning text-dark">Estágio</span>
+                </div>
+                <p class="small mb-1"><strong>Fonte:</strong> Indeed (04/08/2026)</p>
+                <p class="small mb-1"><strong>Tecnologias:</strong> PHP, SQL</p>
+                <p class="small text-muted mb-0">Obs: Conhecimento em Git solicitado.</p>
+              </div>
+            </div>
+
+            <div class="card border-0 shadow-sm mb-3">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                  <h4 class="h5 mb-0">Dev Backend Junior</h4>
+                  <span class="badge bg-success-subtle text-success-emphasis">Júnior</span>
+                </div>
+                <p class="small mb-1"><strong>Fonte:</strong> Indeed (04/08/2026)</p>
+                <p class="small mb-1"><strong>Tecnologias:</strong> PHP, Laravel, SQL, APIs REST</p>
+                <p class="small text-muted mb-0">Obs: Foco em sistemas LIMS.</p>
+              </div>
+            </div>
+
+            <div class="card border-0 shadow-sm mb-3">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                  <h4 class="h5 mb-0">Software Engineer (Back-end)</h4>
+                  <span class="badge bg-success-subtle text-success-emphasis">Júnior</span>
+                </div>
+                <p class="small mb-1"><strong>Fonte:</strong> Indeed (04/08/2026)</p>
+                <p class="small mb-1"><strong>Tecnologias:</strong> PHP/Golang, Laravel, PostgreSQL</p>
+                <p class="small text-muted mb-0">Obs: Demanda conhecimento em arquitetura de software, boas práticas e Git.</p>
+              </div>
+            </div>
+
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                  <h4 class="h5 mb-0">Desenvolvedor(a) C#</h4>
+                  <span class="badge bg-primary-subtle text-primary-emphasis">Jr/Pleno</span>
+                </div>
+                <p class="small mb-1"><strong>Fonte:</strong> Indeed (04/08/2026)</p>
+                <p class="small mb-1"><strong>Tecnologias:</strong> C#, .NET, SQL Server</p>
+                <p class="small text-muted mb-0">Obs: Ênfase em Code Review, escalabilidade e Git.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="h4 fw-bold mb-3 text-dark">Mercado Nacional e Exterior</h3>
+
+            <div class="card bg-dark text-white border-0 shadow-sm mb-3">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                  <h4 class="h5 mb-0">Dev Web Backend Python</h4>
+                  <span class="badge bg-light text-dark">Remoto BR (Jr)</span>
+                </div>
+                <p class="small mb-1"><strong>Fonte:</strong> Indeed (04/08/2026)</p>
+                <p class="small mb-1"><strong>Tecnologias:</strong> Python, Django, PostgreSQL</p>
+                <p class="small text-white-50 mb-0">Obs: Exige Git, proatividade e compreensão de impacto.</p>
+              </div>
+            </div>
+
+            <div class="card bg-dark text-white border-0 shadow-sm mb-3">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                  <h4 class="h5 mb-0">Dev Full Stack</h4>
+                  <span class="badge bg-light text-dark">Remoto BR (Jr)</span>
+                </div>
+                <p class="small mb-1"><strong>Fonte:</strong> Indeed (04/08/2026)</p>
+                <p class="small mb-1"><strong>Tecnologias:</strong> JavaScript, Node.js/React, MySQL</p>
+                <p class="small text-white-50 mb-0">Obs: Requer noções de AWS, Cloud, APIs REST e UI/UX.</p>
+              </div>
+            </div>
+
+            <div class="card bg-dark text-white border-0 shadow-sm mb-3">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                  <h4 class="h5 mb-0">Junior Backend Engineer</h4>
+                  <span class="badge bg-light text-dark">Remoto Exterior</span>
+                </div>
+                <p class="small mb-1"><strong>Fonte:</strong> LinkedIn (04/08/2026)</p>
+                <p class="small mb-1"><strong>Tecnologias:</strong> Java, Spring Boot, PostgreSQL</p>
+                <p class="small text-white-50 mb-0">Obs: Requisitos adicionais incluem Docker, AWS e Inglês Avançado.</p>
+              </div>
+            </div>
+
+            <div class="card bg-dark text-white border-0 shadow-sm">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                  <h4 class="h5 mb-0">Junior Software Engineer</h4>
+                  <span class="badge bg-light text-dark">Remoto BR (Jr)</span>
+                </div>
+                <p class="small mb-1"><strong>Fonte:</strong> Indeed (04/08/2026)</p>
+                <p class="small mb-1"><strong>Tecnologias:</strong> TypeScript, Node.js, MongoDB</p>
+                <p class="small text-white-50 mb-0">Obs: Necessário domínio de APIs REST e testes unitários.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <h2 class="h3 fw-bold text-success mb-3">Tecnologias Mais Citadas</h2>
+                <p class="text-secondary mb-5">As principais linguagens, frameworks e bancos de dados que aparecem nas oportunidades analisadas.</p>
+                <div class="tech-badges">
+                  <span class="badge rounded-pill bg-light text-dark border">PHP / Laravel</span>
+                  <span class="badge rounded-pill bg-light text-dark border">Node.js / Express</span>
+                  <span class="badge rounded-pill bg-light text-dark border">JavaScript / TypeScript</span>
+                  <span class="badge rounded-pill bg-light text-dark border">Python / Django</span>
+                  <span class="badge rounded-pill bg-light text-dark border">C# / .NET</span>
+                  <span class="badge rounded-pill bg-light text-dark border">SQL / PostgreSQL</span>
+                  <span class="badge rounded-pill bg-light text-dark border">Git</span>
+                  <span class="badge rounded-pill bg-light text-dark border">AWS / Cloud</span>
+                  <span class="badge rounded-pill bg-light text-dark border">APIs REST</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <h3 class="h4 fw-bold text-dark mb-3">O que o mercado exige?</h3>
+
+                <h4 class="h6 fw-bold text-success mt-4">Competências Técnicas</h4>
+                <p class="text-secondary">Há uma forte demanda por conhecimento em Bancos de Dados Relacionais (SQL, PostgreSQL), construção de APIs REST e versionamento (Git). Arquitetura de software e testes unitários são diferenciais notáveis.</p>
+
+                <h4 class="h6 fw-bold text-success mt-4">Competências Comportamentais</h4>
+                <p class="text-secondary">Para além do código, o mercado valoriza proatividade, compreensão do impacto das soluções entregues, capacidade de revisão (Code Review) e, para vagas internacionais, proficiência no idioma inglês.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="graficos" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-success mb-3">Gráficos e Estatísticas</h2>
+          <p class="text-secondary mx-auto" style="max-width: 760px;">Indicadores-chave que ajudam a interpretar a demanda real do mercado de tecnologia.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <h3 class="h4 fw-bold text-dark mb-3">Frequência de tecnologias nas vagas</h3>
+
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between small fw-bold text-dark">
+                    <span>PHP / Laravel</span>
+                    <span>84%</span>
+                  </div>
+                  <div class="progress mt-2" role="progressbar" aria-label="PHP / Laravel" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 84%"></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between small fw-bold text-dark">
+                    <span>JavaScript / Node.js</span>
+                    <span>76%</span>
+                  </div>
+                  <div class="progress mt-2" role="progressbar" aria-label="JavaScript / Node.js" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 76%"></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between small fw-bold text-dark">
+                    <span>Python / Django</span>
+                    <span>62%</span>
+                  </div>
+                  <div class="progress mt-2" role="progressbar" aria-label="Python / Django" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 62%"></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between small fw-bold text-dark">
+                    <span>C# / .NET</span>
+                    <span>58%</span>
+                  </div>
+                  <div class="progress mt-2" role="progressbar" aria-label="C# / .NET" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 58%"></div>
+                  </div>
+                </div>
+
+                <div class="mb-0">
+                  <div class="d-flex justify-content-between small fw-bold text-dark">
+                    <span>SQL / Banco de Dados</span>
+                    <span>88%</span>
+                  </div>
+                  <div class="progress mt-2" role="progressbar" aria-label="SQL / Banco de Dados" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 88%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <div class="border rounded p-3 mb-3">
+                  <div class="display-6 fw-bold text-success">62%</div>
+                  <p class="mb-0 text-secondary">das vagas exigem conhecimento em bancos de dados relacionais.</p>
+                </div>
+
+                <div class="border rounded p-3 mb-3">
+                  <div class="display-6 fw-bold text-success">75%</div>
+                  <p class="mb-0 text-secondary">das oportunidades pedem Git e versionamento de código.</p>
+                </div>
+
+                <div class="border rounded p-3 mb-0">
+                  <div class="display-6 fw-bold text-success">50%</div>
+                  <p class="mb-0 text-secondary">das vagas de nível nacional destacam APIs REST e cloud.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="analise" class="py-5">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="fw-bold text-success mb-3">Síntese do Aprendizado</h2>
+            <p class="lead fw-semibold text-dark mb-3"><strong>O que o mercado mais tem exigido dos profissionais de tecnologia?</strong></p>
+            <p class="text-secondary">A análise mostra uma diferença clara entre o mercado de Joinville e o cenário nacional e remoto. No ambiente local, há maior presença de tecnologias mais consolidadas, como PHP com Laravel e C# com .NET, que costumam estar ligadas a sistemas internos e demandas mais tradicionais. Já no mercado nacional e remoto, aparece uma maior variedade de stacks, com destaque para Python e JavaScript, além de Node.js e TypeScript. Em ambos os casos, o que se repete com frequência é o domínio de Git, APIs REST e boa arquitetura de software. Esses elementos continuam sendo essenciais para quem quer entrar ou se destacar na área.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-4 footer-center">
+    <div class="container text-center">
+      <p class="mb-1 fw-bold">Fábrica de Software - Engenharia de Software - Univille</p>
+      <p class="mb-1">Landing Page - Panorama de Mercado em Tecnologia</p>
+      <p class="mb-0 text-white-50 small">Desenvolvido por João Lucas Medeiros de Jesus &copy; 2026 | Atividade Prática</p>
+    </div>
+  </footer>
+
+</body>
+</html>
